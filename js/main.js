@@ -20,7 +20,6 @@ function searchUsers(searchValue) {
     })
     .then(response => response.json())
     .then(data => {
-        console.log(data);
         resultsContainer.innerHTML = "";
         data.items.forEach(user => {
             numSearch++;
