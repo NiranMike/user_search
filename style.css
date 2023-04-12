@@ -4,7 +4,6 @@
 }
 
 .header{
-    
     background-color: #1796FF;
 }
 
@@ -30,10 +29,10 @@
 
 input {
     margin-bottom: 20px;
-  background-color: white;
-  padding: 15px;
-  border: none;
-  width: 50%;
+    background-color: white;
+    padding: 15px;
+    border: none;
+    width: 50%;
 }
 
 .user__image{
@@ -76,4 +75,12 @@ input {
     height: 1px;
     width: 100%;
     background-color: #a7a7a7;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+    input {
+        width: 90%;
+    }
 }
